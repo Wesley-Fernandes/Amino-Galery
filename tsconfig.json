@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "moduleResolution": "node10",
+    //"types": ["node"],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  //"files": ["./src/index.ts"] //Somente em projetos pequenos.,
+  "include": ["src/**/*"]
+}
