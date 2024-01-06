@@ -1,6 +1,9 @@
 import multer, { Multer } from "multer";
 import { StorageEngine } from "multer";
 
+interface props {
+  temps: string[];
+}
 export class Multers {
   readonly storage: StorageEngine;
   readonly upload: Multer;
@@ -13,5 +16,9 @@ export class Multers {
     });
 
     this.upload = multer({ storage: this.storage });
+  }
+
+  deleteFiles({ temps }: props) {
+    const currentTime = Date.now();
   }
 }
