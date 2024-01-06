@@ -2,3 +2,7 @@
 node_modules
 
 .env
+google_drive_key.json
+./google_drive_key.json
+./node.png
+node.png
